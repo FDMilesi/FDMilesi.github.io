@@ -106,10 +106,8 @@ section { overflow: hidden; }
 .text-mega{color:#00a885 !important;;}
 .text-white{color:#fff !important;;}
 .text-black{color:#16293b !important;}
-.text-yellow{
-    color:#fddc57;
-}
-
+.text-yellow{color:#fddc57;}
+.text-morado{color:#954373;}
 .disabled{
     cursor: not-allowed;
 }
@@ -125,6 +123,7 @@ section { overflow: hidden; }
 .bg-black{background-color: #222222;}
 .bg-white{background-color: #fff;}
 .bg-yellow{background-color: #fddc57;}
+.bg-morado{background-color: #954373;}
 
 img {
     -moz-user-select: none;
@@ -317,7 +316,7 @@ ul{
 }
 
 .overlay {
-    background-color: rgba(41, 39, 34, 0.55);
+    //background-color: rgba(41, 39, 34, 0.55);
     width: 100%;
     height:100%;
     position: absolute;
@@ -880,13 +879,13 @@ Nav Menu style
     padding: 30px 15px;
 }
 nav.navbar.bootsnav ul.nav li.active > a{
-    color:#fddc57;
+    color:#954373;
 }
 nav.navbar.bootsnav.no-background.white ul.nav > li > a {
-    color: #fff;
+    color: black;
 }
 nav.navbar.bootsnav.no-background.white ul.nav > li.active > a {
-    color: #fddc57;
+    color: #954373;
 }
 
 /*
@@ -902,10 +901,11 @@ Home Section style
     width:100%;
 }
 .home_text h1{
-    font-size:100px;
-    font-family: 'Kaushan Script', cursive;
+    font-size:50px;
+	font-family: 'Montserrat', cursive;
+    /*font-family: 'Kaushan Script', cursive;*/
     margin-bottom:20px;
-    line-height: 105px;
+    line-height: 55px;
 }
 .home_text h3{
     font-size:24px;
